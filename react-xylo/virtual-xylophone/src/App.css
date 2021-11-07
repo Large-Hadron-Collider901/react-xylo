@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+
+.App {
+  text-align: center;
+  border: double seagreen 12px;
+  width: 950px;
+  height: 600px;
+  position: relative;
+  margin-left: 300px;
+  padding-top: 50px;
+  margin-top: 50px;
+  background-image: url("./Components/assets/abstract-colors.jpg");
+  background-size: repeat;
+  box-shadow: 5px 10px 28px 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#xylo {
+  position: relative;
+  left: 40px;
+}
+
+html {
+  background-image: url("./Components/assets/blue-mandala-ethnic-motifs-geometric-ornament-design-seamless-pattern.png"); 
+  background-size: repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+h1 {
+  font-family: 'Nerko One', cursive;
+  font-size: 60px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: seagreen;
+}
+
+h2 {
+  font-family: 'Covered By Your Grace', cursive;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: white;
+  font-size: 30px;
+}
+
+h3 {
+  color: indianred;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 35px;
+  margin-bottom: 2px;
+}
