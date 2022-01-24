@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 .App {
   text-align: center;
@@ -64,30 +62,29 @@ html {
   overflow: hidden;
 }
 
-.wrapper {
-  display: flex;
-  gap: 32px;
-}
+
 
 h1 {
-  font-family: 'Nerko One', cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: 60px;
+
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  color: springgreen;
+background: #06B7BD;
+background: -webkit-linear-gradient(to right, #06B7BD 13%, #218F6A 53%, #FF36A1 2%, #6223CF 89%);
+background: -moz-linear-gradient(to right, #06B7BD 13%, #218F6A 53%, #FF36A1 2%, #6223CF 89%);
+background: linear-gradient(to right, #06B7BD 13%, #218F6A 53%, #FF36A1 2%, #6223CF 89%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 1px navy;
 }
 
 h2 {
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Advent Pro', sans-serif;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   color: white;
+  text-shadow: 2px 2px #6513ff;
   font-size: 30px;
 }
 
-h3 {
-  color: indianred;
-  font-family: 'Just Another Hand', cursive;
-  font-size: 35px;
-  margin-bottom: 2px;
-}
